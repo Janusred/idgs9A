@@ -8,3 +8,5 @@ def peli(request):
         return render(request, "infoDir/peli.html")
 def about(request):
         return render(request, "infoDir/about.html")
+def valoradas(request):
+        return render(request,"infoDir/valoradas.html")
